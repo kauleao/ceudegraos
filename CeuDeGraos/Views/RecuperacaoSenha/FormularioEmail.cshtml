@@ -1,0 +1,25 @@
+﻿@model CeuDeGraos.Models.ForgotPasswordViewModel
+
+@{
+    ViewData["Title"] = "Reset Password";
+}
+
+<div style="gap: 15px;" class="d-flex flex-column pdt-50  align-items-center background-body" style="height: 730px;">
+    <div class="container d-flex justify-content-center align-items-center">
+        <div style="width: 800px; height: 600px; border-radius: 10px;" class="login d-flex flex-column background-content p-5 justify-content-center align-items-center">
+            <h1 style="color: var(--secondary-color);" class="font-arial">E-mail para redefinição de senha</h1>
+
+            <form id="clientForm" method="post" class="d-flex flex-column full-width justify-content-center align-items-center gap-3 pdt-30">
+                <input placeholder="E-mail" type="text" class="full-width" maxlength="40" name="email">
+                <div class="d-flex tex-start full-width">
+                    @Html.ValidationSummary(false, "", new { @class = "text-danger"} )
+                </div>
+                <button style="height: 50px; width: 300px; border-radius: 40px;" class="button-secondary-color-white font-arial" asp-controller="RecuperacaoSenha" asp-action="EnvioFormularioEmail">Enviar</button>
+
+                <a class="font-arial" asp-controller="Login" asp-action="Formulario">Acessar conta</a>
+            </form>
+        </div>
+    </div>
+</div>
+<script>
+</script>

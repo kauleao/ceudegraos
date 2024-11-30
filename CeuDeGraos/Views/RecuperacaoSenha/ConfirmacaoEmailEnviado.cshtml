@@ -1,0 +1,16 @@
+﻿@model ForgotPasswordViewModel
+
+<div style="gap: 15px;" class="d-flex flex-column pdt-50  align-items-center background-body" style="height: 730px;">
+    <div class="container d-flex justify-content-center align-items-center">
+        <div style="width: 800px; height: 600px; border-radius: 10px;" class="login d-flex flex-column background-content p-5 justify-content-center align-items-center">
+            <h1 style="color: var(--secondary-color);" class="font-arial">E-mail enviado com sucesso</h1>
+
+            <form action="" id="clientForm" class="d-flex flex-column full-width justify-content-center align-items-center gap-3 pdt-30">
+                <label style="font-size: 22px;">Foi enviado um e-mail para <strong>@Model.Email</strong> com as instruções para redefinição de senha. Verifique sua caixa de entrada</label>
+                <a class="font-arial" asp-controller="Login" asp-action="Formulario">Voltar para login</a>
+            </form>
+        </div>
+    </div>
+</div>
+<script>
+</script>

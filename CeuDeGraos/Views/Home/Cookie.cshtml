@@ -1,0 +1,63 @@
+@{
+    ViewData["Title"] = "Cookies";
+}
+<div class="d-flex flex-column align-items-center background-content">
+    <div class="content-cookie">
+        <img class="cookie" src="~/images/cookie.svg" onclick="toggleInfoBox()">
+        <div class="info-box">
+            <p style="font-size: var(--font-size-20); color: var(--secondary-color); font-weight: 700;" class="font-arial text-center">Valorizamos sua privacidade</p>
+            <p style="font-size: var(--font-size-16); color: var(--secondary-color); font-weight: 400;" class="text-start">Nós armazenamos dados temporariamente para aprimorar sua experiência de navegação, exibir anúncios ou conteúdo personalizado. Ao clicar em “Aceitar”, você concorda com nosso uso de cookies.</p>
+            <div class="d-flex justify-content-center">
+                <div style="max-width: 260px; width: 100%; gap: 8px;" class="d-flex flex-column">
+                    <button class="full-width font-arial button-primary-color" onclick="toggleCookieOptions()">Opções</button>
+                    <button class="full-width font-arial button-primary-color" onclick="infoBoxReject()">Rejeitar</button>
+                    <button class="full-width font-arial button-secondary-color" onclick="infoBoxAccept()">Aceitar</button>
+                </div>
+            </div>
+        </div>
+        <div class="cookie-options">
+            <p style="color: var(--secondary-color); font-size: var(--font-size-20); font-weight: 700;" class="font-arial text-center">Personalizar preferências de consentimento</p>
+            <span style="color: var(--secondary-color); font-weight: 400; line-height: 18.5px;" class="d-flex font-arial">Os cookies que são classificados com a marcação “Necessário” são armazenados em seu navegador, pois são essenciais para possibilitar o uso de funcionalidades básicas do site.</span>
+            
+            <p style="font-weight: 700;" class="d-flex justify-content-between m-0 align-items-center mt-3 font-arial text-dark">
+                Cookies Estritamente Necessários: 
+                <label class="switch">
+                    <input type="checkbox">
+                    <span class="slider round"></span>
+                </label>
+            <p>
+            <span style="font-weight: 400; line-height: 18.5px;" class="d-flex font-arial text-dark text-justify">Esses cookies são essenciais para o funcionamento do site e não podem ser desativados em nossos sistemas. Eles geralmente são definidos apenas em resposta a ações feitas por você, como solicitação de serviços, como preencher formulários.</span>
+            
+            <p style="font-weight: 700;" class="d-flex justify-content-between m-0 align-items-center mt-3 font-arial text-dark">
+                Cookies de Desempenho: 
+                <label class="switch">
+                    <input type="checkbox">
+                    <span class="slider round"></span>
+                </label>
+            </p>
+            <span style="font-weight: 400; line-height: 18.5px;" class="d-flex font-arial text-dark text-justify">Esses cookies nos permitem contar visitas e fontes de tráfego, para que possamos medir e melhorar o desempenho do nosso site.</span>
+            
+            <p style="font-weight: 700;" class="d-flex justify-content-between m-0 align-items-center mt-3 font-arial text-dark">
+                Cookies de Funcionalidade: 
+                <label class="switch">
+                    <input type="checkbox">
+                    <span class="slider round"></span>
+                </label>
+            </p>
+            <span style="font-weight: 400; line-height: 18.5px;" class="d-flex font-arial text-dark text-justify">Esses cookies permitem que o site forneça funcionalidade e personalização aprimoradas. Eles podem ser definidos por nós ou por provedores de terceiros cujos serviços adicionamos às nossas páginas.</span>
+
+            <p style="font-weight: 700;" class="d-flex justify-content-between m-0 align-items-center mt-3 font-arial text-dark">
+                Cookies de Publicidade: 
+                <label class="switch">
+                    <input type="checkbox">
+                    <span class="slider round"></span>
+                </label>
+            </p>
+            <span style="font-weight: 400; line-height: 18.5px;" class="d-flex font-arial text-dark text-justify">Esses cookies podem ser usados por empresas de publicidade para construir um perfil de seus interesses e mostrar anúncios relevantes em outros sites.</span>
+            <div style="gap: 18px;" class="d-flex flex-row mb-3 mt-4">
+                <button style="max-width: 260px;" class="full-width font-arial button-primary-color" onclick="cookieReject()">Rejeitar</button>
+                <button style="max-width: 260px;" class="full-width font-arial button-secondary-color" onclick="cookieAccept()">Aceitar</button>
+            </div>
+        </div>
+    </div>
+</div>

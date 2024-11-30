@@ -1,0 +1,38 @@
+@model CeuDeGraos.Models.UserViewModel
+
+<div style="gap: 15px; height: 730px;" class="d-flex flex-column pdt-50 align-items-center background-body">
+    <div class="container d-flex justify-content-center align-items-center">
+        <div style="width: 800px; min-height: 600px; border-radius: 10px;"
+            class="login d-flex flex-column background-content p-5 justify-content-center align-items-center">
+            <h1 style="color: var(--secondary-color);" class="font-arial">Crie a sua conta</h1>
+
+
+            <form asp-action="Cadastrar" method="post" id="clientForm" class="d-flex flex-column full-width justify-content-center align-items-center pdt-30">
+
+                <!-- Campos específicos para CPF -->
+                <div id="cpfFields" class="type-cpf flex-column full-width gap-3" style="display: block;">
+                    <input placeholder="CPF/CNPJ" type="text" class="full-width" asp-for="CPF_CNPJ">
+                    <span id="error-cpfcnpj" style="color: red; font-size: 12px; display: none;"></span>
+                    <input placeholder="Nome/Razão Social" type="text" class="full-width" maxlength="50" asp-for="Nome">
+     
+                </div>
+
+ 
+                <div class="flex-column full-width gap-3">
+                    <input placeholder="CEP" type="text" class="full-width" maxlength="14" asp-for="Endereco">
+                    <input placeholder="E-mail" type="text" class="full-width" maxlength="50" asp-for="Email">
+                    <input placeholder="Senha" type="password" class="full-width" maxlength="18" asp-for="Senha">
+                    <input placeholder="Repita a senha" type="password" class="full-width" maxlength="18" asp-for="ConfirmacaoSenha">
+                </div>
+                <div class="d-flex tex-start full-width mt-3">
+                    @Html.ValidationSummary(false, "", new { @class = "text-danger"} )
+                </div>
+                    
+
+                <span style="color: var(--secondary-color); width: 100%; font-size: 14px" class="font-arial text-start"><a asp-controller="Home" asp-action="TermsOfUse">Termos de Uso</a> e <a asp-controller="Home" asp-action="PrivacyPolicy">Política de Privacidade</a></span>
+                <button style="height: 50px; width: 300px; border-radius: 40px;" class="button-secondary-color-white font-arial mt-4 mb-3">Cadastrar</button>
+                <p style="color: var(--secondary-color);" class="font-arial">Já tem uma conta? <a asp-controller="Login" asp-action="Formulario">Acessar conta</a></p>
+            </form>  
+        </div>
+    </div>
+    </div>

@@ -1,0 +1,112 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>@ViewData["Title"] - CÉU DE GRÃOS</title>
+    <link rel="stylesheet" href="~/lib/bootstrap/dist/css/bootstrap.min.css" />
+    <link rel="stylesheet" href="~/css/site.css" asp-append-version="true" />
+    <link rel="stylesheet" href="~/CeuDeGraos.styles.css" asp-append-version="true" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Passion+One:wght@400;700;900&display=swap"
+        rel="stylesheet">
+</head>
+
+<body class="background-body">
+    <header>
+        <nav class="navbar container navbar-expand-sm navbar-toggleable-sm box-shadow">
+            <div class="container-fluid pdr-10">
+                <a class="navbar-brand d-flex align-items-center" asp-area="" asp-controller="Home"
+                    asp-action="History">
+                    <img style="width: 240px; height: auto;" src="~/images/logo-header.png" class="image-logo">
+                </a>
+                <div class="nav flex-row d-flex align-items-center">
+                    <ul class="breadcrumb navbar-nav flex-grow-1 m-0">
+                        <li class="nav-item border-separator d-flex align-items-center">
+                            <a style="font-size: 20px;" class="nav-link font-arial text-white" asp-area=""
+                                asp-controller="Home" asp-action="History">Quem somos</a>
+                        </li>
+                        <li class="nav-item border-separator d-flex align-items-center">
+                            <a style="font-size: 20px;" class="nav-link font-arial text-white" asp-area=""
+                                asp-controller="Home" asp-action="Products">Nossos Produtos</a>
+                        </li>
+
+                        <!-- Exibição do nome do usuário e botão de logout se estiver autenticado -->
+                        @if (User.Identity.IsAuthenticated)
+                        {
+                            <li class="nav-item border-separator d-flex align-items-center">
+                                <span class="nav-link text-white" style="font-size: 20px;">Bem-vindo,
+                                    @User.FindFirst("NomeCliente")?.Value</span>
+                            </li>
+                            <li class="nav-item d-flex align-items-center">
+                                <form action="@Url.Action("Logout", "Login")" method="post">
+                                    <button type="submit" class="btn btn-link nav-link text-white"
+                                        style="font-size: 20px;">Logout</button>
+                                </form>
+                            </li>
+                        }
+                        else
+                        {
+                            <li class="nav-item border-separator d-flex align-items-center">
+                                <a style="font-size: 20px;" class="nav-link font-arial text-white" asp-area=""
+                                    asp-controller="Login" asp-action="Formulario">Cadastro/Login</a>
+                            </li>
+                        }
+                    </ul>
+                </div>
+            </div>
+        </nav>
+    </header>
+    <div>
+        <main role="main">
+            @RenderBody()
+        </main>
+    </div>
+
+    @await Html.PartialAsync("Cookie")
+
+    <footer class="footer text-muted">
+        <div class="container d-flex flex-row mt-5 gap-200">
+            <img src="~/images/logo-footer.png" class="mb-5 logo-column">
+            <div class="d-flex flex-column">
+                <div class="d-flex flex-row gap-90">
+                    <div class="d-flex flex-column pt-4">
+                        <h1 style="font-weight: 800; color: var(--secondary-color);" class="font-inter">FAZENDA</h1>
+                        <a asp-area="" asp-controller="Home" asp-action="History"
+                            style="color: var(--white); font-weight: 400; font-size: 26px; text-decoration: none;"
+                            class="font-arial">Quem somos nós</a>
+                        <a asp-area="" asp-controller="Home" asp-action="Products"
+                            style="color: var(--white); font-weight: 400; font-size: 26px; text-decoration: none;"
+                            class="font-arial">Nossos produtos</a>
+                        <a asp-area="" asp-controller="Login" asp-action="Formulario"
+                            style="color: var(--white); font-weight: 400; font-size: 26px; text-decoration: none;"
+                            class="font-arial">Cadastro/Login</a>
+                    </div>
+                    <div class="d-flex flex-column pt-4">
+                        <h1 style="font-weight: 800; color: var(--secondary-color);" class="font-inter">PRIVACIDADE</h1>
+                        <a asp-area="" asp-controller="Home" asp-action="PrivacyPolicy"
+                            style="color: var(--white); font-weight: 400; font-size: 26px; text-decoration: none;"
+                            class="font-arial">Política de Privacidade</a>
+                        <a asp-area="" asp-controller="Home" asp-action="PrivacyCookies"
+                            style="color: var(--white); font-weight: 400; font-size: 26px; text-decoration: none;"
+                            class="font-arial">Política de Cookies</a>
+                        <a asp-area="" asp-controller="Home" asp-action="TermsOfUse"
+                            style="color: var(--white); font-weight: 400; font-size: 26px; text-decoration: none;"
+                            class="font-arial">Termos de Uso</a>
+                    </div>
+                </div>
+                <p style="color: var(--secondary-color); font-weight: 400; font-size: 20px;" class="font-arial mt-3">
+                    Endereço: Av. Pedro Álvares Cabral, - Vila Mariana, São Paulo</p>
+            </div>
+        </div>
+    </footer>
+    <script src="~/lib/jquery/dist/jquery.min.js"></script>
+    <script src="~/lib/bootstrap/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="~/js/site.js" asp-append-version="true"></script>
+    @await RenderSectionAsync("Scripts", required: false)
+</body>
+
+</html>
