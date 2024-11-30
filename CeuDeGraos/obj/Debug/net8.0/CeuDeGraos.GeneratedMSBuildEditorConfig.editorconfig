@@ -9,107 +9,107 @@ build_property.EnforceExtendedAnalyzerRules =
 build_property._SupportedPlatformList = Linux,macOS,Windows
 build_property.RootNamespace = CeuDeGraos
 build_property.RootNamespace = CeuDeGraos
-build_property.ProjectDir = C:\Users\wilson\Desktop\Projeto Kauane\CeuDeGraos\
+build_property.ProjectDir = C:\Users\kauan\Downloads\Projeto Kauane\Projeto Kauane\CeuDeGraos\
 build_property.EnableComHosting = 
 build_property.EnableGeneratedComInterfaceComImportInterop = 
 build_property.RazorLangVersion = 8.0
 build_property.SupportLocalizedComponentNames = 
 build_property.GenerateRazorMetadataSourceChecksumAttributes = 
-build_property.MSBuildProjectDirectory = C:\Users\wilson\Desktop\Projeto Kauane\CeuDeGraos
+build_property.MSBuildProjectDirectory = C:\Users\kauan\Downloads\Projeto Kauane\Projeto Kauane\CeuDeGraos
 build_property._RazorSourceGeneratorDebug = 
 
-[C:/Users/wilson/Desktop/Projeto Kauane/CeuDeGraos/Views/Cadastro/ConfirmacaoCadastro.cshtml]
+[C:/Users/kauan/Downloads/Projeto Kauane/Projeto Kauane/CeuDeGraos/Views/Cadastro/ConfirmacaoCadastro.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ2FkYXN0cm9cQ29uZmlybWFjYW9DYWRhc3Ryby5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/wilson/Desktop/Projeto Kauane/CeuDeGraos/Views/Cadastro/Cookie.cshtml]
+[C:/Users/kauan/Downloads/Projeto Kauane/Projeto Kauane/CeuDeGraos/Views/Cadastro/Cookie.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ2FkYXN0cm9cQ29va2llLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/wilson/Desktop/Projeto Kauane/CeuDeGraos/Views/Cadastro/Formulario.cshtml]
+[C:/Users/kauan/Downloads/Projeto Kauane/Projeto Kauane/CeuDeGraos/Views/Cadastro/Formulario.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ2FkYXN0cm9cRm9ybXVsYXJpby5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/wilson/Desktop/Projeto Kauane/CeuDeGraos/Views/Cadastro/Sucesso.cshtml]
+[C:/Users/kauan/Downloads/Projeto Kauane/Projeto Kauane/CeuDeGraos/Views/Cadastro/Sucesso.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ2FkYXN0cm9cU3VjZXNzby5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/wilson/Desktop/Projeto Kauane/CeuDeGraos/Views/Home/Cookie.cshtml]
+[C:/Users/kauan/Downloads/Projeto Kauane/Projeto Kauane/CeuDeGraos/Views/Home/Cookie.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxDb29raWUuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/wilson/Desktop/Projeto Kauane/CeuDeGraos/Views/Home/History.cshtml]
+[C:/Users/kauan/Downloads/Projeto Kauane/Projeto Kauane/CeuDeGraos/Views/Home/History.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxIaXN0b3J5LmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/wilson/Desktop/Projeto Kauane/CeuDeGraos/Views/Home/Index.cshtml]
+[C:/Users/kauan/Downloads/Projeto Kauane/Projeto Kauane/CeuDeGraos/Views/Home/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxJbmRleC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/wilson/Desktop/Projeto Kauane/CeuDeGraos/Views/Home/Privacy.cshtml]
+[C:/Users/kauan/Downloads/Projeto Kauane/Projeto Kauane/CeuDeGraos/Views/Home/Privacy.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxQcml2YWN5LmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/wilson/Desktop/Projeto Kauane/CeuDeGraos/Views/Home/PrivacyCookies.cshtml]
+[C:/Users/kauan/Downloads/Projeto Kauane/Projeto Kauane/CeuDeGraos/Views/Home/PrivacyCookies.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxQcml2YWN5Q29va2llcy5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/wilson/Desktop/Projeto Kauane/CeuDeGraos/Views/Home/PrivacyPolicy.cshtml]
+[C:/Users/kauan/Downloads/Projeto Kauane/Projeto Kauane/CeuDeGraos/Views/Home/PrivacyPolicy.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxQcml2YWN5UG9saWN5LmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/wilson/Desktop/Projeto Kauane/CeuDeGraos/Views/Home/Products.cshtml]
+[C:/Users/kauan/Downloads/Projeto Kauane/Projeto Kauane/CeuDeGraos/Views/Home/Products.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxQcm9kdWN0cy5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/wilson/Desktop/Projeto Kauane/CeuDeGraos/Views/Home/TermsOfUse.cshtml]
+[C:/Users/kauan/Downloads/Projeto Kauane/Projeto Kauane/CeuDeGraos/Views/Home/TermsOfUse.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxUZXJtc09mVXNlLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/wilson/Desktop/Projeto Kauane/CeuDeGraos/Views/Home/Teste.cshtml]
+[C:/Users/kauan/Downloads/Projeto Kauane/Projeto Kauane/CeuDeGraos/Views/Home/Teste.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxUZXN0ZS5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/wilson/Desktop/Projeto Kauane/CeuDeGraos/Views/Login/Formulario.cshtml]
+[C:/Users/kauan/Downloads/Projeto Kauane/Projeto Kauane/CeuDeGraos/Views/Login/Formulario.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTG9naW5cRm9ybXVsYXJpby5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/wilson/Desktop/Projeto Kauane/CeuDeGraos/Views/RecuperacaoSenha/ConfirmacaoEmailEnviado.cshtml]
+[C:/Users/kauan/Downloads/Projeto Kauane/Projeto Kauane/CeuDeGraos/Views/RecuperacaoSenha/ConfirmacaoEmailEnviado.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUmVjdXBlcmFjYW9TZW5oYVxDb25maXJtYWNhb0VtYWlsRW52aWFkby5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/wilson/Desktop/Projeto Kauane/CeuDeGraos/Views/RecuperacaoSenha/ConfirmacaoSenhaAlterada.cshtml]
+[C:/Users/kauan/Downloads/Projeto Kauane/Projeto Kauane/CeuDeGraos/Views/RecuperacaoSenha/ConfirmacaoSenhaAlterada.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUmVjdXBlcmFjYW9TZW5oYVxDb25maXJtYWNhb1NlbmhhQWx0ZXJhZGEuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/wilson/Desktop/Projeto Kauane/CeuDeGraos/Views/RecuperacaoSenha/FormularioEmail.cshtml]
+[C:/Users/kauan/Downloads/Projeto Kauane/Projeto Kauane/CeuDeGraos/Views/RecuperacaoSenha/FormularioEmail.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUmVjdXBlcmFjYW9TZW5oYVxGb3JtdWxhcmlvRW1haWwuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/wilson/Desktop/Projeto Kauane/CeuDeGraos/Views/RecuperacaoSenha/FormularioNovaSenha.cshtml]
+[C:/Users/kauan/Downloads/Projeto Kauane/Projeto Kauane/CeuDeGraos/Views/RecuperacaoSenha/FormularioNovaSenha.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUmVjdXBlcmFjYW9TZW5oYVxGb3JtdWxhcmlvTm92YVNlbmhhLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/wilson/Desktop/Projeto Kauane/CeuDeGraos/Views/Shared/Cookie.cshtml]
+[C:/Users/kauan/Downloads/Projeto Kauane/Projeto Kauane/CeuDeGraos/Views/Shared/Cookie.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXENvb2tpZS5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/wilson/Desktop/Projeto Kauane/CeuDeGraos/Views/Shared/Error.cshtml]
+[C:/Users/kauan/Downloads/Projeto Kauane/Projeto Kauane/CeuDeGraos/Views/Shared/Error.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXEVycm9yLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/wilson/Desktop/Projeto Kauane/CeuDeGraos/Views/Shared/_ValidationScriptsPartial.cshtml]
+[C:/Users/kauan/Downloads/Projeto Kauane/Projeto Kauane/CeuDeGraos/Views/Shared/_ValidationScriptsPartial.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9WYWxpZGF0aW9uU2NyaXB0c1BhcnRpYWwuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/wilson/Desktop/Projeto Kauane/CeuDeGraos/Views/_ViewImports.cshtml]
+[C:/Users/kauan/Downloads/Projeto Kauane/Projeto Kauane/CeuDeGraos/Views/_ViewImports.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcX1ZpZXdJbXBvcnRzLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/wilson/Desktop/Projeto Kauane/CeuDeGraos/Views/_ViewStart.cshtml]
+[C:/Users/kauan/Downloads/Projeto Kauane/Projeto Kauane/CeuDeGraos/Views/_ViewStart.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcX1ZpZXdTdGFydC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/wilson/Desktop/Projeto Kauane/CeuDeGraos/Views/Shared/_Layout.cshtml]
+[C:/Users/kauan/Downloads/Projeto Kauane/Projeto Kauane/CeuDeGraos/Views/Shared/_Layout.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9MYXlvdXQuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = b-y1mm5iay1n

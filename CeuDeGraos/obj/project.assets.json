@@ -5037,20 +5037,19 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\wilson\\.nuget\\packages\\": {}
+    "C:\\Users\\kauan\\.nuget\\packages\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\wilson\\Desktop\\Projeto Kauane\\CeuDeGraos\\CeuDeGraos.csproj",
+      "projectUniqueName": "C:\\Users\\kauan\\Downloads\\Projeto Kauane\\Projeto Kauane\\CeuDeGraos\\CeuDeGraos.csproj",
       "projectName": "CeuDeGraos",
-      "projectPath": "C:\\Users\\wilson\\Desktop\\Projeto Kauane\\CeuDeGraos\\CeuDeGraos.csproj",
-      "packagesPath": "C:\\Users\\wilson\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\wilson\\Desktop\\Projeto Kauane\\CeuDeGraos\\obj\\",
+      "projectPath": "C:\\Users\\kauan\\Downloads\\Projeto Kauane\\Projeto Kauane\\CeuDeGraos\\CeuDeGraos.csproj",
+      "packagesPath": "C:\\Users\\kauan\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\kauan\\Downloads\\Projeto Kauane\\Projeto Kauane\\CeuDeGraos\\obj\\",
       "projectStyle": "PackageReference",
-      "UsingMicrosoftNETSdk": false,
       "configFilePaths": [
-        "C:\\Users\\wilson\\AppData\\Roaming\\NuGet\\NuGet.Config"
+        "C:\\Users\\kauan\\AppData\\Roaming\\NuGet\\NuGet.Config"
       ],
       "originalTargetFrameworks": [
         "net8.0"
@@ -5131,7 +5130,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.403/PortableRuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.404/PortableRuntimeIdentifierGraph.json"
       }
     }
   }

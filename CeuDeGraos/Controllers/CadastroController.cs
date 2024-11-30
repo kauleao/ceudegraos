@@ -52,7 +52,7 @@ public class CadastroController : Controller
             {
                 Nome = formulario.Nome,
                 Email = formulario.Email,
-                CPF_CNPJ = formulario.CPF_CNPJ,
+                CPF_CNPJ = Regex.Replace(formulario.CPF_CNPJ, @"\D", ""),
                 Senha = hashedPassword,
                 DataCadastro = DateTime.Now,
                 Endereco = formulario.Endereco,

@@ -27,7 +27,7 @@ namespace CeuDeGraos.Models
         [Compare("Senha", ErrorMessage = "As senhas não coincidem.")]
         public string ConfirmacaoSenha { get; set; }
 
-        [Required(ErrorMessage = "O CEP é obrigatório.")]
+        [Required(ErrorMessage = "O Endereço é obrigatório.")]
         [StringLength(255, ErrorMessage = "O endereço pode ter no máximo 255 caracteres.")]
         public string Endereco { get; set; }
 
